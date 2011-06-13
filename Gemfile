@@ -30,6 +30,8 @@ gem 'sqlite3-ruby', :require => 'sqlite3'
 
 group :development do
 	gem 'rspec-rails', '2.5.0'
+	gem 'annotate-models', '1.0.4'
+	gem "rake", "0.8.7"
 end
 
 group :test do
