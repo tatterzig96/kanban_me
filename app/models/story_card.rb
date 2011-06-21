@@ -15,4 +15,6 @@
 
 class StoryCard < ActiveRecord::Base
   attr_accessible :story, :notes,:points, :iteration, :story_id
+  
+  validates :story, :presence => true
 end
